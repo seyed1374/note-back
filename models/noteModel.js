@@ -7,7 +7,6 @@ const noteModel = new mongoose.Schema({
     },
     title: {
         type: String,
-        required: "enter title!",
     },
     text: {
         type: String,
