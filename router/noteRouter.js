@@ -11,7 +11,7 @@ function noteRouter(app)
         {
             noteController.getNotes(req, res)
         })
-        .patch((req, res) =>
+        .post((req, res) =>
         {
             noteController.updateNote(req, res)
         })

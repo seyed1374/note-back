@@ -50,7 +50,7 @@ function getNotes(req, res)
                     {
                         if (foundedNotes)
                         {
-                            res.send(foundedNotes)
+                            res.send(foundedNotes.reverse())
                         }
                         else
                         {
